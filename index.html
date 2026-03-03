@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mini Portal - Grid + Flex</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="layout">
+    <header class="header">
+      <div class="brand">
+        <span class="logo">📰</span>
+        <strong>PortalZ</strong>
+      </div>
+
+      <nav class="nav">
+        <a href="#">Início</a>
+        <a href="#">Tecnologia</a>
+        <a href="#">Educação</a>
+        <a href="#">Esportes</a>
+      </nav>
+
+      <div class="search">
+        <input
+          type="search"
+          placeholder="Buscar..."
+          aria-label="Buscar notícias"
+        />
+        <button>OK</button>
+      </div>
+    </header>
+
+    <aside class="sidebar">
+      <h2>Categorias</h2>
+      <ul class="list">
+        <li><a href="#">Últimas</a></li>
+        <li><a href="#">IFRR</a></li>
+        <li><a href="#">Cidade</a></li>
+        <li><a href="#">Economia</a></li>
+        <li><a href="#">Cultura</a></li>
+      </ul>
+
+      <h2>Tags</h2>
+      <div class="tags">
+        <span class="tag">#web</span>
+        <span class="tag">#css</span>
+        <span class="tag">#grid</span>
+        <span class="tag">#flex</span>
+        <span class="tag">#frontend</span>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section class="featured">
+        <div class="featured-content">
+          <p class="kicker">Destaque</p>
+          <h1>CSS Grid + Flexbox: quando usar cada um?</h1>
+          <p class="muted">
+            Um exemplo prático com layout responsivo: Grid organiza a página,
+            Flex organiza itens dentro dos blocos.
+          </p>
+          <div class="featured-actions">
+            <a class="btn primary" href="#">Ler agora</a>
+            <a class="btn" href="#">Salvar</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="cards">
+        <article class="card">
+          <div class="card-top">
+            <span class="pill">Tecnologia</span>
+            <time class="muted" datetime="2026-03-02">02/03/2026</time>
+          </div>
+          <h3>Como montar um layout em áreas com Grid</h3>
+          <p class="muted">
+            Use grid-template-areas para visualizar a estrutura como um “mapa”.
+          </p>
+          <div class="card-actions">
+            <a href="#" class="link">Abrir</a>
+            <button class="ghost">⭐</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <span class="pill">Educação</span>
+            <time class="muted" datetime="2026-03-01">01/03/2026</time>
+          </div>
+          <h3>Flexbox no menu e nos botões do card</h3>
+          <p class="muted">
+            Perfeito para alinhar e distribuir elementos em uma linha/coluna.
+          </p>
+          <div class="card-actions">
+            <a href="#" class="link">Abrir</a>
+            <button class="ghost">⭐</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <span class="pill">Cidade</span>
+            <time class="muted" datetime="2026-02-28">28/02/2026</time>
+          </div>
+          <h3>Cards responsivos sem “quebra” feia</h3>
+          <p class="muted">
+            Com repeat(auto-fit, minmax()) você ganha responsividade com poucas
+            linhas.
+          </p>
+          <div class="card-actions">
+            <a href="#" class="link">Abrir</a>
+            <button class="ghost">⭐</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <span class="pill">IFRR</span>
+            <time class="muted" datetime="2026-02-27">27/02/2026</time>
+          </div>
+          <h3>Layout de portal: sidebar + conteúdo + aside</h3>
+          <p class="muted">
+            Um padrão comum em sites reais e ótimo para ensinar Grid.
+          </p>
+          <div class="card-actions">
+            <a href="#" class="link">Abrir</a>
+            <button class="ghost">⭐</button>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <aside class="aside">
+      <h2>Mais lidas</h2>
+      <ol class="list">
+        <li><a href="#">10 atalhos de CSS que economizam tempo</a></li>
+        <li><a href="#">Erros comuns em layout responsivo</a></li>
+        <li><a href="#">Grid vs Flex: guia rápido</a></li>
+        <li><a href="#">Unidades: rem, %, fr e minmax()</a></li>
+      </ol>
+    </aside>
+
+    <footer class="footer">
+      <p>PortalZ • Feito para aula de CSS (Grid + Flex) • © 2026</p>
+    </footer>
+  </body>
+</html>
