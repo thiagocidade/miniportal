@@ -1,8 +1,8 @@
 :root {
-  --bg: #0b1020;
+  --bg: #fff;
   --panel: #121a33;
   --panel2: #0f1730;
-  --text: #e9ecf5;
+  --text: #000;
   --muted: #a9b0c7;
   --line: rgba(255, 255, 255, 0.1);
   --accent: #7c5cff;
@@ -20,7 +20,7 @@ body {
     Roboto,
     Arial,
     sans-serif;
-  background: radial-gradient(1200px 600px at 20% 0%, #1a2450, var(--bg));
+  background: #fff;
   color: var(--text);
 }
 
